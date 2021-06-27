@@ -11,7 +11,7 @@ public class HomePage extends BasePage{
 	}
 	
 	//page locators:
-	By header = By.className("private-page__title");
+	By header = By.className("page-heading");
 	
 	//page actions:
 	public String getHomePageTitle(){

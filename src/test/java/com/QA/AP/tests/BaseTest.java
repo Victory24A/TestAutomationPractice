@@ -20,10 +20,10 @@ public class BaseTest {
 		driver = new ChromeDriver();
 		
 		wait = new WebDriverWait(driver, 15);
-		driver.manage().window().fullscreen();
+		driver.manage().window().maximize();
 		driver.get("http://automationpractice.com/index.php?controller=authentication&back=my-account");
 		try {
-			Thread.sleep(5000);
+			Thread.sleep(1000);
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
